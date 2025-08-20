@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>User Form</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <%- include("partials/header") %>
+  <div class="container">
+    <h2>User Input Form</h2>
+
+    <form action="/submit" method="POST" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" value="<%= form.name || '' %>" required />
+      <% if (errors && errors.name) { %><div class="error"><%= errors.name %></div><% } %>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" value="<%= form.email || '' %>" required />
+      <% if (errors && errors.email) { %><div class="error"><%= errors.email %></div><% } %>
+
+      <label for="age">Age</label>
+      <input id="age" type="number" name="age" value="<%= form.age || '' %>" required />
+      <% if (errors && errors.age) { %><div class="error"><%= errors.age %></div><% } %>
+
+      <button class="primary" type="submit">Submit</button>
+    </form>
+  </div>
+  <%- include("partials/footer") %>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Submission Result</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <%- include("partials/header") %>
+  <h2>Form Submitted Successfully </h2>
+
+  <p><strong>Name:</strong> <%= name %></p>
+  <p><strong>Email:</strong> <%= email %></p>
+  <p><strong>Age:</strong> <%= age %></p>
+
+  <a href="/">Go Back</a>
+  <%- include("partials/footer") %>
+</body>
+</html>
