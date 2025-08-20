@@ -26,16 +26,18 @@ node index.js
 
 # Open in your browser
 http://localhost:3000
-```
 
 ## Preview
 
 Home Page
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7e325b30-94f5-436c-a303-2c191f53faf6" />
+<img src="https://github.com/user-attachments/assets/7e325b30-94f5-436c-a303-2c191f53faf6" alt="Form Server Home Page" width="600"/>
 
 Submitted Data Page
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/3517830a-344e-4155-847c-562da86b7e59" />
+<img src="https://github.com/user-attachments/assets/3517830a-344e-4155-847c-562da86b7e59" alt="Form Server Submitted Data Page" width="600"/>
+
+```
+
 
 
