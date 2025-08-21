@@ -15,7 +15,7 @@ It shows how user input can be submitted from the browser, processed on the serv
 
 ```bash
 # Clone the repository
-git clone https://github.com/Jslxh/form_server.git
+git clone https://github.com/Jslxh/form-server.git
 cd form_server
 
 # Install dependencies
